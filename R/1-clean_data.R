@@ -42,7 +42,7 @@ test <- trips %>%
     target = ReturnKioskName
   ) %>%
   select(source, target, num_trips) %>%
-  filter(num_trips >= 10) %>%
+  filter(num_trips >= 30) %>%
   jsonlite::toJSON(auto_unbox=T) %>% 
   write("links-data.json")
 
