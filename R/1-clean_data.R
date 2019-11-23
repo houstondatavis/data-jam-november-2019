@@ -15,7 +15,7 @@ trips <- trips %>%
   filter(UserRole != "Maintenance") 
 
 # Nodes
-stations <- unique(c(trips$Checkout.Kiosk, trips$Return.Kiosk))
+stations <- unique(c(trips$CheckoutKioskName, trips$ReturnKioskName))
 
 data.frame(
     id = stations,
@@ -25,8 +25,8 @@ data.frame(
   write("nodes-data.json")
 
 # Links
-trips %>%
-  group_by(Checkout.Kiosk, Return.Kiosk) %>%
+test <- trips %>%
+  group_by(CheckoutKioskName, ReturnKioskName) %>%
   summarise(
     num_trips = n(),
     dist_traveled = sum(Distance),
@@ -35,10 +35,11 @@ trips %>%
     time_traveled = sum(DurationMins)
   ) %>%
   rename(
-    source = Checkout.Kiosk,
-    target = Return.Kiosk
+    source = CheckoutKioskName,
+    target = ReturnKioskName
   ) %>%
   select(source, target, num_trips) %>%
+  filter(num_trips >= 5) %>%
   jsonlite::toJSON(auto_unbox=T) %>% 
   write("links-data.json")
 
