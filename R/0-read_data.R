@@ -38,9 +38,10 @@ trip_data <- rbind(pre_change, post_change, fill=TRUE)
 
 fwrite(trip_data, 'trip_data.csv')
 
-file_paths <- list.files(path = "src/Revenue Data/Revenue Details By Year",
+#file_paths <- list.files(path = "src/Revenue Data/Revenue Details By Year",
 			 pattern = ".csv",
 			 full.names=TRUE)
-revenue_details <- do.call(rbind, lapply(file_paths, fread))
 
-fwrite(revenue_details, 'revenue_details.csv')
+#revenue_details <- print(do.call(dim, lapply(file_paths, fread)))
+
+#fwrite(revenue_details, 'revenue_details.csv')
