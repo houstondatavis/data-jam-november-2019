@@ -1,0 +1,22 @@
+﻿HasRFID,MembershipTypeName,AllAccounts,Activated1,Not_Activated2,NewAccounts2,RenewedAccounts2,LapsedAccounts2
+Casual,24 Hour Pass,"5,750","4,453","1,343",820,31,701
+Casual,24 Hour Kiosk,"107,655","107,650",6,"11,430","1,421","11,467"
+Casual,Single Use Pass,"140,211","140,211",0,"36,158","1,408","36,448"
+Member,Annual Membership,"2,552","2,552",3,158,219,167
+Member,Monthly Membership,"13,583","12,898",953,"3,002",105,"2,094"
+Member,Student Summer Membership,97,97,0,4,0,0
+Member,Fall Student/Staff Membership,306,306,0,7,0,0
+Member,Spring Student/Staff Membership,342,342,0,6,0,0
+Member,Student Membership Spring Semester,33,33,0,9,0,0
+
+New Accounts_label,New Accounts_Chart1_CategoryGroup_label,New Accounts_Chart1_CategoryGroup_Value_Y,Renewed Accounts_label,Renewed Accounts_Chart1_CategoryGroup_Value_Y
+New Accounts,24 Hour Kiosk,11430,Renewed Accounts,1421
+New Accounts,24 Hour Pass,820,Renewed Accounts,31
+New Accounts,Annual Membership,158,Renewed Accounts,219
+New Accounts,Fall Student/Staff Membership,7,Renewed Accounts,0
+New Accounts,Monthly Membership,3002,Renewed Accounts,105
+New Accounts,Single Use Pass,36158,Renewed Accounts,1408
+New Accounts,Spring Student/Staff Membership,6,Renewed Accounts,0
+New Accounts,Student Membership Spring Semester,9,Renewed Accounts,0
+New Accounts,Student Summer Membership,4,Renewed Accounts,0
+
