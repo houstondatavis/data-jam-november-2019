@@ -1,0 +1,6 @@
+echo '{"nodes": [' > graph-data.json
+cat nodes-data.json | sed 's/]//g' | sed 's/\[//g' >> graph-data.json
+echo '],' >> graph-data.json
+echo '"links": [' >> graph-data.json
+cat links-data.json | sed 's/]//g' | sed 's/\[//g' >> graph-data.json
+echo ']}' >> graph-data.json
