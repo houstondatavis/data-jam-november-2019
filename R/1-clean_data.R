@@ -17,10 +17,13 @@ trips <- trips %>%
 # Nodes
 stations <- unique(c(trips$CheckoutKioskName, trips$ReturnKioskName))
 
-data.frame(
+kiosk_trips = trips %>% group_by(CheckoutKioskName) %>% summarise(num_trips = n())
+
+nodes <- data.frame(
     id = stations,
     group = 1
   ) %>%
+  left_join(kiosk_trips, by = c("id" = "CheckoutKioskName")) %>%
   jsonlite::toJSON(auto_unbox=T) %>% 
   write("nodes-data.json")
 
