@@ -1,3 +1,6 @@
+# Data Jam!
+This is a project that started at an event put on by the [Houston Data Visualization Meetup Group](https://www.meetup.com/Houston-Data-Visualization-Meetup/). The dataset was provided by Houston BCycle, a bike sharing system. I worked on the data using python and [KeplerGL](kepler.gl), an open source geospatial visualization tool built by Uber.
+
 ## Some Notes on Questions to Think About
 * Weather - cold and wet way worse than heat?
 * How have usage patterns changed over time as stations were added
