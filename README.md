@@ -10,7 +10,10 @@
     - How self-contained are the mini networks (Rice, UH, TSU, TMC) or how much do people connect to the rest of the network?
     - How do the trip patterns of super users compare to others?
     - Are there people who buy single rides repeatedly and what are their trip patterns?
+    - Follow an E-bike around
+        - E bike Numbers: 15040, 15050, 15052, 15062, 15074, 15056
     
+
 # Data Description
  8/14 and earlier has these unique fields:
 
