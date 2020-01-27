@@ -37,6 +37,7 @@ This is a project that started at an event put on by the [Houston Data Visualiza
 
 # Data Description
  8/14 and earlier has these unique fields:
+ 
     Checkout Dock
     Bike Checkout Method
     Return Dock
