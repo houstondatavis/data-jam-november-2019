@@ -1,0 +1,56 @@
+
+# Pre change
+
+[1] "User ID"
+[2] "Zip"
+[3] "Membership Type"
+[4] "Bike"
+[5] "Checkout Date"
+[6] "Checkout Time"
+[7] "Checkout Kiosk"
+[8] "Checkout Dock"
+[9] "Bike Checkout Method"
+[10] "Return Date"
+[11] "Return Time"
+[12] "Return Kiosk"
+[13] "Return Dock"
+[14] "Distance (Miles)"
+[15] "Estimated Carbon Offset (lbs)"
+[16] "Estimated Calories Burned"
+[17] "Duration (Minutes)"
+[18] "Bike Model"
+[19] "Charge"
+[20] "Adjusted Duration (Minutes)"
+[21] "Adjusted Charge
+[22] NA
+
+# Post change
+
+[1] "TripId"                  22
+[2] "UserProgramName"        22
+[3] "UserId"                  [1] "User ID"
+[4] "UserRole"               22
+[5] "UserCity"                22
+[6] "UserState"              22
+[7] "UserZip"                 [2] "Zip"
+[8] "UserCountry"            22
+[9] "MembershipType"          [3] "Membership Type"
+[10] "Bike"                   [4] "Bike" 
+[11] "BikeType"               22
+[12] "CheckoutKioskName"      [7] "Checkout Kiosk"
+[13] "ReturnKioskName"        [12] "Return Kiosk"
+[14] "DurationMins"           [17] "Duration (Minutes)"
+[15] "AdjustedDurationMins"   22
+[16] "UsageFee"               22
+[17] "AdjustmentFlag"         22
+[18] "Distance"               22
+[19] "EstimatedCarbonOffset"  22
+[20] "EstimatedCaloriesBurned"22
+[21] "CheckoutDateLocal"      [5] "Checkout Date"
+[22]  "ReturnDateLocal"       [10] "Return Date"
+[23] "CheckoutTimeLocal"      [6] "Checkout Time"
+[24] "ReturnTimeLocal"        [11] "Return Time"
+[25] "TripOver30Mins"         22
+[26] "LocalProgramFlag"       22
+[27] "TripRouteCategory"     22
+[28] "TripProgramName"  22
